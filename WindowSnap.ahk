@@ -6,7 +6,7 @@ getMonitorIdentiferOfCurrentWindow()
   SysGet, monitorRoi2, MonitorWorkArea, 2    
   SysGet, monitorRoi3, MonitorWorkArea, 3
   
-  ; gbr system                           --------
+  ; my system                           --------
   ;                                     |        |
   ;   --------------    -------------   |        |
   ;  |              |  |             |  |        |

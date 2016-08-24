@@ -1,7 +1,7 @@
-;C:\Users\gbr\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+;C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SendMode Input  
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 openOneNote(createNewPage) 
@@ -47,24 +47,6 @@ return
 #F18:: ;long click erasor on 
 openOneNote(true) 
 return
-
-;IfWinExist ahk_class screenClass
-;{
-;	Send {B}
-;	return
-;}
-;IfWinActive ahk_exe Powerpnt.exe
-;{
-;	Send {F5}
-;	return
-;}
-;else
-;{
-;	send {LWin Down}{PrintScreen}{LWin Up}
-;	sleep 500
-;	return
-;}
-
 
 ;if in firefox flat pen button an click is middle click
 ;IfWinActive ahk_class MozillaWindowClass
